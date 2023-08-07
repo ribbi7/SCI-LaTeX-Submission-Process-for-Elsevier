@@ -55,6 +55,6 @@
 2. CN-Manuscript.tex 使用 XeLaTeX 或 LuaLaTeX 编译均可
 3. EN-Manuscript.tex 使用 PDFLaTex、XeLaTeX 与 LuaLaTeX 均可，但 PDFLaTex 编译最快
 4. 有时会存在在1-Manuscript-CN文件夹中的tex文件中编译时，编译成EN-Manuscript.tex的情况，发生此问题时，只需在CN-Manuscript.tex中编译一下即可
-
+5. 增加引用库时直接在 Manuscript文件中 \bibliography{} 处添加并使用逗号隔开即可如：\bibliography{Ref1,Ref2} 
 
 ## 参与贡献
